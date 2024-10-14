@@ -7,7 +7,6 @@ conversion_map = (
     ('iv', 4),
     ('i', 1))
 
-
 def ar2rom(val):
     res = ''
     for rom, ar in conversion_map:
