@@ -14,7 +14,7 @@ def ar2rom(val):
         while val >= ar:
             res += rom
             val -= ar
-    return res
+    return res_TEST
 
 
 class Tests(unittest.TestCase):
